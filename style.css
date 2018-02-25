@@ -1,7 +1,14 @@
 @charset "UTF-8";
 
-body{
-  font-family: Montserrat, sans-serif;
-  font-weight: normal;
-  color: white;
+*{
+  box-sizing: border-box;
+}
+
+#body{
+  width: auto;
+  height: auto;
+  margin: 50px;
+  color: #FFF;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #000;
 }
