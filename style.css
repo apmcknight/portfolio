@@ -10,6 +10,11 @@ html{
   font-family: 'Montserrat', sans-serif;
 }
 
+a{
+  text-decoration: none;
+  text-decoration-style: none;
+}
+
 #body{
   width: auto;
   height: auto;
@@ -19,19 +24,21 @@ html{
 }
 
 .introText{
-  margin: 350px 350px 155px 100px;
-  font-weight: 500;
+  margin: 250px 300px 155px 100px;
+  font-size: 45px;
+  font-weight: 600;
   line-height: 150%;
 }
 
 .link{
   padding: 5px;
+  color: rgba(0,29,255);
   font-size: 12px;
-  font-weight: 440;
+  font-weight: 600;
   line-height: 150%;
   letter-spacing: 3px;
   position: relative;
-  top: 300px;
+  top: 150px;
   left: 95px;
 }
 
@@ -51,29 +58,28 @@ html{
   margin: 50px 400px 0px 99px;
   width: auto;
   height: 250px;
-  border-radius: 15px;
+  border-radius: 45px;
 
   /* Gradients */
-  background: rgb(0,29,255);
-  background: -moz-linear-gradient(90deg, rgba(0,29,255,1) 0%, rgba(27,11,142,1) 100%);
-  background: -webkit-linear-gradient(90deg, rgba(0,29,255,1) 0%, rgba(27,11,142,1) 100%);
-  background: linear-gradient(90deg, rgba(0,29,255,1) 0%, rgba(27,11,142,1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#001dff",endColorstr="#1b0b8e",GradientType=1); 
+  background: rgb(0, 30, 255);
+   
 
   /* Shaddows */
- 
-  box-shadow: rgb(0,29,255, 0.5);
+  box-shadow: -webkit-box-shadow: 0px 0px 22px 0px rgba(0,0,0,0.34);
+  -moz-box-shadow: 0px 0px 22px 0px rgba(0,0,0,0.34);
+  box-shadow: 0px 0px 22px 0px rgba(0,0,0,0.34);
 }
 
 .containerHead{
   color: #fff;
   font-weight: 500;
   font-size: 25px;
-  padding: 65px 0px 10px 55px;
+  padding: 45px 0px 10px 55px;
 }
 
 .containerText{
   color: #fff;
+  line-height: 25px;
   padding: 0px 0px 10px 55px;
 }
 
