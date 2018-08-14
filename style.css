@@ -30,6 +30,14 @@ a{
   line-height: 150%;
 }
 
+.textGrad{/* Font Background Settings */
+background-image: -webkit-gradient(linear, left top, right top, color-stop(1, #001dff), color-stop(.40, #ae00ff), color-stop(.30, #ff00ee));
+background-image: gradient( linear, left top, right top, color-stop(.45, #001dff), color-stop(0.98, #4c00ff), color-stop(0.98, #ae00ff));
+color:transparent;
+-webkit-background-clip: text;
+background-clip: text;
+}
+
 .link{
   padding: 5px;
   color: rgba(0,29,255);
@@ -58,16 +66,34 @@ a{
   margin: 50px 400px 0px 99px;
   width: auto;
   height: 250px;
-  border-radius: 45px;
+  border-radius: 0px;
 
   /* Gradients */
   background: rgb(0, 30, 255);
    
 
   /* Shaddows */
-  box-shadow: -webkit-box-shadow: 0px 0px 22px 0px rgba(0,0,0,0.34);
-  -moz-box-shadow: 0px 0px 22px 0px rgba(0,0,0,0.34);
-  box-shadow: 0px 0px 22px 0px rgba(0,0,0,0.34);
+  box-shadow: -webkit-box-shadow: 0px 0px 22px 0px rgba(0, 30, 255, 0.60);
+  -moz-box-shadow: 0px 0px 22px 0px rgba(0, 30, 255, 0.60);
+  box-shadow: 0px 0px 22px 0px rgba(0, 30, 255, 0.60);
+
+  /* Transitions */
+  -webkit-transition-duration: 0.4s; 
+    
+  /* For Safari */
+  transition-duration: 0.4s;
+}
+
+.projectContainer:hover{
+  -webkit-box-shadow: 0px 0px 21px -6px rgba(0, 30, 255,0.64);
+  -moz-box-shadow: 0px 0px 21px -6px rgba(0, 30, 255, 0.64);
+  box-shadow: 0px 0px 15px -6px rgba(0, 30, 255 ,0.64);
+
+  /* Transitions */
+  -webkit-transition-duration: 0.4s; 
+    
+  /* For Safari */
+  transition-duration: 0.4s;
 }
 
 .containerHead{
