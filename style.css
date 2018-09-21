@@ -13,6 +13,11 @@ a{
   text-decoration: none;
   text-decoration-style: none;
 }
+a:visited{
+  text-decoration: none;
+  text-decoration-style: none;
+  color: rgba(0,29,255);
+}
 
 #body{
   width: auto;
@@ -54,107 +59,71 @@ background-clip: text;
 }
 
 .recentProjects{
-  padding: 5px;
+  padding-top: 5px;
+  padding-bottom: 100px;
+  padding-left: 5px;
+  padding-right: 5px;
+
   font-size: 12px;
   font-weight: 500;
   line-height: 150%;
   letter-spacing: 3px;
-  position: relative;
-  top: 0px;
-  left: 95px;
+  position: absolute;
+  top: 600px;
+  left: 140px;
 }
 
-.projectContainer{
-  /* Structure */
-  margin: 50px 400px 0px 99px;
-  width: auto;
-  height: 250px;
-  border-radius: 0px;
 
-  /* Gradients */
-  background: rgb(0, 30, 255);
-   
+/* Project links */
+.projectLink{
+  display: block;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 25px;
+  margin-left: 47px;
 
-  /* Shaddows */
-  box-shadow: -webkit-box-shadow: 0px 0px 22px 0px rgba(0, 30, 255, 0.60);
-  -moz-box-shadow: 0px 0px 22px 0px rgba(0, 30, 255, 0.60);
-  box-shadow: 0px 0px 22px 0px rgba(0, 30, 255, 0.60);
-
-  /* Transitions */
-  -webkit-transition-duration: 0.4s; 
-    
-  /* For Safari */
-  transition-duration: 0.4s;
-}
-
-.projectContainer:hover{
-  -webkit-box-shadow: 0px 0px 21px -6px rgba(0, 30, 255,0.64);
-  -moz-box-shadow: 0px 0px 21px -6px rgba(0, 30, 255, 0.64);
-  box-shadow: 0px 0px 15px -6px rgba(0, 30, 255 ,0.64);
-
-  /* Transitions */
-  -webkit-transition-duration: 0.4s; 
-    
-  /* For Safari */
-  transition-duration: 0.4s;
-}
-
-.containerHead{
-  color: #fff;
-  font-weight: 500;
-  font-size: 25px;
-  padding: 45px 0px 10px 55px;
-}
-
-.containerText{
-  color: #fff;
-  line-height: 25px;
-  padding: 0px 0px 10px 55px;
-}
-
-/* Project Container Links */
-
-.projectContainer a{
-  padding: 0px 0px 10px 35px;
-  position: relative;
-  left: 20px;
-  font-size: 9pt;
-  font-weight: 600;
-  letter-spacing: 1.2pt;
-  color: rgba(255, 255, 255, 100);
   text-decoration: none;
+  list-style: none;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 150%;
+  letter-spacing: .5px;
+  color: rgba(0,29,255);
+
+  position: relative;
 }
 
-.projectContainer a:hover{
-  padding: 0px 0px 10px 35px;
-  position: relative;
-  left: 20px;
-  font-size: 9pt;
-  font-weight: 600;
-  letter-spacing: 1.2pt;
-  color: rgba(0, 255, 255, 5);
-}
+.projectLink:visited{
+  margin-top: 250px;
+  margin-left: 90px;
+  padding: 5px;
 
-.projectContainer a:visited{
-  padding: 0px 0px 10px 35px;
-  position: relative;
-  left: 20px;
-  font-size: 9pt;
-  font-weight: 600;
-  letter-spacing: 1.2pt;
-  color: rgba(255, 255, 255, 100);
   text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 150%;
+  letter-spacing: .5px;
+  color: rgba(0,29,255);
+
+  position: absolute;
+  top: 400px;
+  left: 45px;
 }
 
-.projectContainer a:active{
-  padding: 0px 0px 10px 35px;
-  position: relative;
-  left: 20px;
-  font-size: 9pt;
-  font-weight: 600;
-  letter-spacing: 1.2pt;
-  color: rgba(255, 255, 255, 100);
-  text-decoration: none;
+.hiddenLink{
+  margin-top: 250px;
+  margin-left: 90px;
+  padding: 5px;
+
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 150%;
+  letter-spacing: .5px;
+  color: rgba(0,29,255);
+
+  position: absolute;
+  top: 470px;
+  left: 45px;
 }
 
 @media only screen and (max-width: 600px){

@@ -1,0 +1,3 @@
+function showWorkImg() {
+  document.getElementsByClassName
+}
