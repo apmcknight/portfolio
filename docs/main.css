@@ -9,9 +9,16 @@ body{
 }
 
 .main{
-    margin-top: 20%;
+    margin-top: 15%;
     margin-left: 5%;
     margin-right: 15%;
+}
+
+.aboutContent{
+    margin-top: 13%;
+    float: right;
+    width: 65%;
+    height: 100%;    
 }
 
 .main > h1{
@@ -19,25 +26,45 @@ body{
     line-height: 5.5rem;
 }
 
+.main>.aboutContent>h2{
+    font-size: 2em;
+    line-height: 3rem;
+}
+
 .main>nav>a{
     margin-right: 30px;
+    padding: 10px;
     text-transform: uppercase;
     color: #fff;
     letter-spacing: .1em;
-    font-weight: light;
+    font-weight: bolder;
     text-decoration: none;
-    transform: scale(0);
+    border-width: 0px;
+    border-style: solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
 
-    transition: all 1s ease;
+    transition: all .2s ease;
 }
 
 .main>nav>a:hover{
     text-transform: uppercase;
-    color: rgb(255, 101, 101);
-    font-size: 3em;
     letter-spacing: .1em;
     text-decoration: none;
-    transition: all 1s ease;
+    border-width: 4px;
+    border-style: solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    transition: all .5s ease;
+}
+
+.profile{
+    margin-top: 10%;
+    margin-right: 5%;
+    max-width: 30%; 
+    min-width: 10%;
 }
 
 .socialMedia{
@@ -130,5 +157,22 @@ body{
         text-align: center;
         width: 200px;
         height: 50px;
+    }
+
+    .main>nav{
+        text-align: center;
+        width: auto;
+        height: 100px;
+        margin: auto;
+    }
+    .main>nav>a{
+        margin-right: -5px;
+        display: inline-block;
+        text-transform: uppercase;
+        color: #fff;
+        font-size: .2em;
+        letter-spacing: .1em;
+        font-weight: bolder;
+        text-decoration: none;
     }
 }
