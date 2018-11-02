@@ -38,7 +38,6 @@ button{
     border-bottom: none;
     border-right: none;
     transition: all 1s ease;
-
 }
 
 button:hover{
@@ -147,10 +146,11 @@ button:hover{
     100%{background: orange;}
   }
 
-/* Tablets */
-@media screen and (max-width: 768px){
+/* Laptops */
+@media screen and (max-width: 1439px){
+    button{margin-top: 5%;}
     .main{
-        margin-top: 100%;
+        margin-top: 15%;
         margin-left: 5%;
         margin-right: 10%;
         padding-top: 150px;
@@ -174,10 +174,113 @@ button:hover{
     }
 
     .socialMedia>a{margin-right: 12px;}
+
+    /* --- ABOUT PAGE START --- */
+    .aboutContent{
+        margin-top: 10%;
+        float: right;
+        width: 65%;
+        height: 50%;    
+    }
+
+    .main>.aboutContent>h2{
+        font-size: .5em;
+        line-height: 3rem;
+    }
+
+    .aboutDetails{
+        margin-top: 25%;
+        margin-right: 10%;
+    }
+    
+    .aboutDetails>h3{
+        font-size: 2em;
+        line-height: 3rem;
+    }
+
+    .main>.aboutContent>h2{
+        font-size: 2em;
+        line-height: 3rem;
+    }
+
+    .profile{
+        margin-top: 10%;
+        margin-right: 5%;
+        max-width: 30%; 
+        min-width: 10%;
+    }
+    /* --- ABOUT PAGE END --- */
+}
+
+/* Tablets */
+@media screen and (max-width: 999px){
+    .main{
+        margin-top: 15%;
+        margin-left: 5%;
+        margin-right: 10%;
+        padding-top: 150px;
+    }
+   
+    .main > h1{
+        font-size: 2.5em;
+        line-height: 3.5rem;
+        text-align: left;
+    }
+
+    .main{
+        margin-top: 17%;
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+
+    .socialMedia{
+        width: 200px;
+        height: 50px;
+    }
+
+    .socialMedia>a{margin-right: 12px;}
+
+    /* --- ABOUT PAGE START --- */
+    .aboutContent{
+        margin-top: 5%;
+        float: right;
+        width: 65%;
+        height: 50%;    
+    }
+
+    .main>.aboutContent>h2{
+        font-size: .5em;
+        line-height: 3rem;
+    }
+
+    .aboutDetails{
+        margin-top: 25%;
+        margin-right: 10%;
+    
+    }
+    
+    .aboutDetails>h3{
+        font-size: 1.5em;
+        line-height: 2rem;
+    }
+
+    .main>.aboutContent>h2{
+        font-size: 2em;
+        line-height: 3rem;
+    }
+
+    .profile{
+        margin-top: 10%;
+        margin-right: 5%;
+        max-width: 30%; 
+        min-width: 10%;
+    }
+    /* --- ABOUT PAGE END --- */
 }
 
 /* Phones */
-@media screen and (max-width: 425px){
+@media screen and (max-width: 768px){
+    h3{margin-top: 0;}
     .main{
         margin-top: 100%;
         margin-left: 5%;
@@ -221,4 +324,42 @@ button:hover{
         font-weight: bolder;
         text-decoration: none;
     }
+
+     /* --- ABOUT PAGE START --- */
+    .aboutContent{display: none;}
+
+    .aboutDetails{
+        margin-top: 0%;
+        margin-left: 10%;
+    }
+    
+    .aboutDetails>h3{
+        text-align: justify;
+        font-size: 1em;
+        line-height: 1.5rem;
+    }
+
+    .main>.aboutContent>h2{
+        font-size: 2em;
+        line-height: 3rem;
+    }
+
+    .profile{
+        max-width: 100%; 
+        min-width: 10%;
+        margin-top: 10%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        transform: scale(.8);
+    }
+
+    button{
+        margin-top: 15%;
+        border-width: 5px;
+        height: 50px;
+        transition: all 1s ease;
+    }    
+    /* --- ABOUT PAGE END --- */
+
 }
