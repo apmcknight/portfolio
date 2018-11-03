@@ -7,39 +7,46 @@
     <title>Adam McKnight</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="main.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animsition/4.0.2/css/animsition.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animsition/4.0.2/js/animsition.js"></script>
 </head>
 
 <body>
-    <!-- <div id="pageTransition"></div> -->
+    <div class="animsition-overlay" data-animsition-overlay="true">
+        <section class="main" id="contentGroup">
+            <nav>
+                <a href="about.html">About</a>
+                <a href="design.html">Design Work</a>
+                <a href="dev.html">Development Work</a>
+            </nav>
 
-    <section class="main">
-        <nav>
-            <a href="about.html">About</a>
-            <a href="design.html">Design Work</a>
-            <a href="dev.html">Development Work</a>
-        </nav>
-
-        <h1>
-            Adam McKnight is a Designer and Developer,
-            focused on building unique, and intimate experiences.
-        </h1>
+            <h1>
+                Adam McKnight is a Designer and Developer,
+                focused on building unique, and intimate experiences.
+            </h1>
 
 
-        <div class="socialMedia">
-            <a href="https://www.github.com/apmcknight" target="_blank">
-                <img class="svg" src="./assets/github.svg" alt="GitHub">
-            </a>
+            <div class="socialMedia">
+                <a href="https://www.github.com/apmcknight" target="_blank">
+                    <img class="svg" src="./assets/github.svg" alt="GitHub">
+                </a>
 
-            <a href="https://www.dribbble.com/theadammcknight" target="_blank">
-                <img class="svg" src="./assets/dribbble.svg" alt="dribbble">
-            </a>
+                <a href="https://www.dribbble.com/theadammcknight" target="_blank">
+                    <img class="svg" src="./assets/dribbble.svg" alt="dribbble">
+                </a>
 
-            <a href="https://www.linkedin.com/in/adammcknight/" target="_blank">
-                <img class="svg" src="assets/linkedin.svg" alt="linkedIn">
-            </a>
-        </div>
-    </section>
+                <a href="https://www.linkedin.com/in/adammcknight/" target="_blank">
+                    <img class="svg" src="assets/linkedin.svg" alt="linkedIn">
+                </a>
+            </div>
+        </section>
+    </div>
+
+
+    <!-- Calls Page Transition -->
+    <script src="main.js"></script>
+
 </body>
 
 </html>
