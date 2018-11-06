@@ -156,6 +156,8 @@ button:hover {
 
 .grid {
     margin-top: 8%;
+    margin-bottom: 8%;
+    text-align: center;
 
     /* Grid Fallback */
     display: flex;
@@ -187,7 +189,12 @@ button:hover {
 
 .module>a>img:hover {
     max-width: 100%;
-    transform: scale(1.2);
+    transform: scale(.8);
+}
+
+.innerHead{
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 /* If Grid is supported, remove the margin we set for the fallback */
