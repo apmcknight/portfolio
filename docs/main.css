@@ -122,6 +122,14 @@ button:hover {
     transition: all .5s ease;
 }
 
+.projectThumb{
+    margin-top: 4em;
+}
+
+.projectThumb > img{
+    max-width: 100%;
+}
+
 .profile {
     margin-top: 10%;
     margin-right: 5%;

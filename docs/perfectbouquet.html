@@ -14,13 +14,14 @@
 </head>
 
 <body>
-    <div class="animsition-overlay" data-animsition-overlay="true">
-        <section class="mainAbout main" id="contentGroup">
+    <div class="animsition">
+        <section class="mainAbout main">
             <nav>
+                <a class="currentPage" href="javascript: history.back();">— BACK</a>
                 <a href="index.html">Home</a>
                 <a href="about.html">About</a>
                 <a href="design.html">Design Work</a>
-                <a class="currentPage" href="dev.html">Development Work</a>
+                <a href="dev.html">Development Work</a>
             </nav>
 
             <h1 class="innerHead2">Perfect Bouquet</h1>
@@ -43,13 +44,10 @@
                 </p>
             </div>
 
-            <div class="grid2">
-                <div class="module2">
-                    <a href="#">
-                        <img src="./assets/dev/perfectbouquet/Home - Desktop.png" alt="Dev Item">
-                    </a>
-                </div>
+            <div class="projectThumb">
+                <img src="./assets/dev/perfectbouquet/Home - Desktop.png" alt="Dev Item">
             </div>
+            
 
 
 
@@ -57,7 +55,7 @@
     </div>
 
     <!-- Calls Page Transition -->
-    <script src="main.js"></script>
+    <script src="zoomTransition.js"></script>
 
 </body>
 
