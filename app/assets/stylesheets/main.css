@@ -1,0 +1,30 @@
+#body {
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 20%;
+  line-height: 3em;
+  color: #000;
+  background-color: #fff;
+  font-size: 2em;
+}
+
+h1 {
+  font-family: 'Ubuntu Mono', monospace;
+  text-align: left;
+}
+
+p {
+  text-align: left;
+}
+
+@media only screen and (max-width: 883px) {
+  #body {
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-right: 30%;
+    line-height: 3em;
+    font-size: .9em;
+    color: #000;
+    background-color: #fff;
+  }
+}

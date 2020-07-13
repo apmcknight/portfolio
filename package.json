@@ -1,0 +1,19 @@
+{
+  "name": "template",
+  "version": "1.0.0",
+  "description": "A project template",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server ./app -d false"
+  },
+  "author": "Adam McKnight",
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "^0.11.1"
+  },
+  "repository": "https://github.com/apmcknight/template.git",
+  "devDependencies": {
+    "cssnano": "^4.1.10"
+  }
+}
